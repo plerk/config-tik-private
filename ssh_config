@@ -1,0 +1,37 @@
+Host *
+
+Host sesda2
+  User gollis
+  Protocol 2
+  Port 2122
+  HostName 10.10.10.1
+  LogLevel ERROR
+  ForwardAgent yes
+
+Host acpsdev2
+  User gollis
+  Protocol 2
+  Port 2123
+  HostName 10.10.10.1
+  ForwardAgent yes
+
+Host omidev
+  User omidev
+  Protocol 2
+  Port 2124
+  HostName 10.10.10.1
+  ForwardAgent yes
+
+Host omitest
+  User omitest
+  Protocol 2
+  Port 2125
+  HostName 10.10.10.1
+  ForwardAgent yes
+
+Host omisips1
+  User omiops
+  Protocol 2
+  Port 2126
+  HostName 10.10.10.1
+  ForwardAgent yes
