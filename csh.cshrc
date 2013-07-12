@@ -19,4 +19,3 @@ setenv PERL5LIB /util/lib/perl
 setenv LD_LIBRARY_PATH /usr/local/lib
 unset autologout
 setenv GIT_EXEC_PATH /usr/local/libexec/git-core
-setenv GIT_SSH wrapper-ssh
