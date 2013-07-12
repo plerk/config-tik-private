@@ -1,0 +1,7 @@
+[user]
+        name = Graham Ollis
+        email = gollis@sesda3.com
+[color]
+        diff = auto
+        status = auto
+        branch = auto
