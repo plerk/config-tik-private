@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd ~/etc/ollisg
+git pull origin master
 cd ~/etc/private
 git pull origin master
 rsync --delete -avH pac:/mnt/nasa/local/ /usr/local/
